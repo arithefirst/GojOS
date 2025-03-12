@@ -1,0 +1,13 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "ari@arithefirst.com",
+                "Name": "April Hall"
+            }
+        ],
+        "Id": "GojOS_Linux_Default",
+        "License": "LGPLv3",
+        "Name": "GojOS Linux Default"
+    }
+}
