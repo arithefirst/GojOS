@@ -1,7 +1,5 @@
 alsa-utils
 amd-ucode
-arch-install-scripts
-archinstall
 b43-fwcutter
 base
 bcachefs-tools
@@ -127,7 +125,8 @@ xfsprogs
 xl2tpd
 zsh
 
-plasma
 sddm
-konsole
-networkmanager
+cinnamon
+vlc
+xed
+ghostty
