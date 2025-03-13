@@ -7,4 +7,4 @@ Target = filesystem
 [Action]
 Description = Customizing OS release information for GojOS...
 When = PostTransaction
-Exec = /bin/sh -c 'sed -i "s/Arch Linux/GojOS Linux/g" /etc/lsb-release /usr/lib/os-release && sed -i "s/ID=arch/ID=gojos/g" /usr/lib/os-release && sed -i "s/DISTRIB_ID=.*/DISTRIB_ID=GojOS/g" /etc/lsb-release && sed -i "s/DISTRIB_DESCRIPTION=.*/DISTRIB_DESCRIPTION=\"GojOS Linux\"/g" /etc/lsb-release && sed -i "s|HOME_URL=.*|HOME_URL=\"https://github.com/arithefirst/GojOS\"|g" /usr/lib/os-release && sed -i "s/PRETTY_NAME=.*/PRETTY_NAME=\"GojOS Linux\"/g" /usr/lib/os-release'
+Exec = /usr/local/bin/customize-gojos-release.sh
