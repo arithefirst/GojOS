@@ -127,8 +127,9 @@ zsh
 
 ly
 cinnamon
-vlc
-xed
 ghostty
 blueman
 wget
+nautilus
+gnome-calculator
+gnome-font-viewer
